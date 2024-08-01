@@ -3,5 +3,8 @@ Just run in the directory of the FLACs. FFmpeg can easily be installed in severa
 Linux (Ubuntu, Debian, etc)
 sudo apt install ffmpeg
 
-Binaries for Windows
+MacOS Binaries
+https://evermeet.cx/ffmpeg/
+
+Windows Binaries
 https://www.gyan.dev/ffmpeg/builds/
