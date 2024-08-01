@@ -8,3 +8,6 @@ https://evermeet.cx/ffmpeg/
 
 Windows Binaries
 https://www.gyan.dev/ffmpeg/builds/
+
+Example Use Case
+C:\Users\jazz\Music>python alac.py
