@@ -9,6 +9,6 @@ def paths(directory: str):
 filepaths: list[str] = paths(os.getcwd())       
 for file in filepaths:
     if file.endswith(".flac"):
-        name = os.path.basename(file)
+        name = os.path.splitext(os.path.basename(file))[0]
         subprocess.run(f'ffmpeg -nostdin -i "{file}" -c:a alac -c:v copy "{name}.m4a"')
         os.remove(file)
